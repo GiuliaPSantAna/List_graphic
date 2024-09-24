@@ -174,7 +174,7 @@ public:
         std::cout << vertice << " ";
     }
 
-GraficoMatriz loadGraficoDoArquivoMatriz(const std::string& filename) {
+GraficoMatriz carregarGraficoDoArquivoMatriz(const std::string& filename) {
     std::ifstream file(filename);
     int numeroVertices, numeroPontas;
     file >> numeroVertices >> numeroPontas;
